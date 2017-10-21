@@ -1,0 +1,24 @@
+{
+  "name": "rtaij-web",
+  "version": "0.0.0",
+  "description": "Schedule API and web server for RTA in Japan event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hoishin/rtaij-web.git"
+  },
+  "keywords": [
+    "hapi",
+    "javascript",
+    "postgresql"
+  ],
+  "author": "Hoishin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hoishin/rtaij-web/issues"
+  },
+  "homepage": "https://github.com/Hoishin/rtaij-web#readme"
+}
