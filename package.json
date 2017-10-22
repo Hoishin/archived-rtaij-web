@@ -1,10 +1,18 @@
 {
   "name": "rtaij-web",
+  "xo": {
+    "space": false,
+    "rules": {
+      "padded-blocks": [
+        "warn"
+      ]
+    }
+  },
   "version": "0.0.0",
   "description": "Schedule API and web server for RTA in Japan event",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo"
   },
   "repository": {
     "type": "git",
@@ -20,5 +28,18 @@
   "bugs": {
     "url": "https://github.com/Hoishin/rtaij-web/issues"
   },
-  "homepage": "https://github.com/Hoishin/rtaij-web#readme"
+  "homepage": "https://github.com/Hoishin/rtaij-web#readme",
+  "devDependencies": {
+    "eslint-config-hapi": "^10.1.0",
+    "eslint-plugin-hapi": "^4.0.0",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "good": "^7.3.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.2",
+    "hapi": "^16.6.2",
+    "inert": "^4.2.1",
+    "rethinkdb": "^2.3.3"
+  }
 }

@@ -1,4 +1,4 @@
-# RTAiJ-Web
+# rtaij-web
 
 This is currently used as API host for RTA in Japan schedule.
 
